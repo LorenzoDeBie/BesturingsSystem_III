@@ -4,12 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "e4e8e73ecd4b0cbc",
+        "id": "3d2426e9891557f3",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Cloud.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "bca38593a8acafff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Cloud.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -66,6 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,5 +96,16 @@
     "width": 300,
     "collapsed": true
   },
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Cloud.md",
+    "Images/Pasted image 20210219160128.png",
+    "Summary & Exam/Cloud - Summary.md",
+    "Images/cloud-models.png",
+    "Images/Pasted image 20210212144110.png",
+    "Images/Pasted image 20210212141107.png",
+    "Images/Pasted image 20210212115341.png",
+    "Images/Pasted image 20210212110648.png",
+    "Images/static-vs-cloud-datacenters.png",
+    "Images/Pasted image 20210212110536.png"
+  ]
 }
