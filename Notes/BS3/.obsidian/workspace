@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cloud.md",
+            "file": "Summary & Exam/Cloud - Summary.md",
             "mode": "source"
           }
         }
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud.md",
+                "file": "Summary & Exam/Cloud - Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,9 +97,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Summary & Exam/Cloud - Summary.md",
     "Cloud.md",
     "Images/Pasted image 20210219160128.png",
-    "Summary & Exam/Cloud - Summary.md",
     "Images/cloud-models.png",
     "Images/Pasted image 20210212144110.png",
     "Images/Pasted image 20210212141107.png",

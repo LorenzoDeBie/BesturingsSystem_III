@@ -22,11 +22,11 @@ Service Level Agreements: contract die garanties levert voor  o.a. uptime, met t
 
 ## **EXAMEN** Economics of Cloud Users
 * Riskof over-provisioning: underutilization
-![underutilization](underutilization.png)
+![underutilization](Images/underutilization.png)
 * Heavy penalty for under-provisioning
-![under-provisioning](under-provisioning.png)
+![under-provisioning](Images/under-provisioning.png)
 * Pay by use: Static data center vs Data center in the cloud
-![static-vs-cloud-datacenters](static-vs-cloud-datacenters.png)
+![static-vs-cloud-datacenters](Images/static-vs-cloud-datacenters.png)
 
 Cloud providers have the benefit of **Economy of scale**. They get much better deals than regular consumers when buying hardware, power...
 
@@ -76,11 +76,11 @@ User only requires connectivity, they can use software, platform and computing i
 	* Offering computing resources as a metered service
 
 The cloud is not a new technology. **Cloud is a combination of pre-existing technologies**.
-![cloud-computing-history](cloud-computing-history.png)
+![cloud-computing-history](Images/cloud-computing-history.png)
 
 ## Gartner Hype Cycle - Cloud
 Much traction & many articles -> realise it won't solve everything -> learn what it is good for -> businesses know how and what to use it for 
-![gartner-hype-cyle](gartner-hype-cycle.png)
+![gartner-hype-cyle](Images/gartner-hype-cycle.png)
 Cloud computing has reached the plateau of productivity
 
 ### Cloud Consumer Behaviour Drives Enterprises
@@ -124,14 +124,14 @@ A cloud for a single client only. Hosted and operated by a service provider or t
 
 ### Hybrid Cloud
 public cloud + private cloud, **with automatic cloudbursting**
-![hybrid-cloud](hybrid-cloud.png)
+![hybrid-cloud](Images/hybrid-cloud.png)
 * Private cloud supports critical activities
 * Public cloud supports non-critical activities
 * Can outsource non-critical functions
 
 ## \*\*EXAMEN\*\* Cloud Models
 This picture on exam + examples
-![cloud-models](cloud-models.png)
+![cloud-models](Images/cloud-models.png)
 ### On-Premises
 #### Examples:
 * IDLab virtual wall
@@ -150,7 +150,7 @@ This picture on exam + examples
 * Cloud Provider leases Virtual Machine instances (i.e. computer infrastructure) to users
 * User has access to a standard Operating System (Ubuntu, Windows, Debian, Arch) environment and can install and configure all layers above it
 #### \*\*EXAMEN\*\* Multi-Tenacy
-![multi-tenancy](multi-tenancy.png)
+![multi-tenancy](Images/multi-tenancy.png)
 *How do we share a physical computer among multiple users?*
 * **Abstraction**
 	* Introduce an abstract model of what a generic computing resource should look like (CPU cores, RAM, network adapter, graphics adapter, storage)
@@ -185,7 +185,7 @@ This picture on exam + examples
 
 ## Virtualization
 ### What is virtualization?
-![virtual-machine](virtual-machine.png)
+![virtual-machine](Images/virtual-machine.png)
 Virtualization is a **hardware level abstraction**. It provides virtual hardware such as processors, memory, chipset, I/O devices, etc. Virtualization encapsulates all OS and application state.
 
 The **virtualization software** gives an extra level of indirection and decouples hardware and OS. It multiplexes physical hardware across multiple "guest" VMs.
@@ -195,7 +195,7 @@ It's also responsible for providing strong isolation between VMs. The virtualiza
 It also manages all the physical resources and improves utilization of these resources. Chipset hardware also aids in performace: Memory Management Unit virtualization allows guest VMs to directly use periphal devices (ethernet, GPU, etc.)
 
 ### What are the benefits of virtualization?
-![benefits-of-virtualization](benefits-of-virtualization.png)
+![benefits-of-virtualization](Images/benefits-of-virtualization.png)
 Example of Failure Isolation: If one application has a memory leak and the memory fills up, the application and maybe the whole VM will crash. This won't crash any other VMs.
 
 #### VM Encapsulation
@@ -235,10 +235,10 @@ The **hypervisor** is an extra layer between the hardware and the VMs that enabl
 ### Process VMs vs. VM Monitors
 * Process VM: A runtime system that executes a program that is compiled to intermediate (portable) code. The JVM (Java Virtual Machine) is an example of a Process VM.
 * VM Montior (Hypervisor): A seperate software layer mimics the instruction set of hardware. A complete OS and its applications can be supported. VMWare and VirtualBox are examples of VM monitors.
-![process-vms-vs-vm-monitors](process-vms-vs-vm-monitors.png)
+![process-vms-vs-vm-monitors](Images/process-vms-vs-vm-monitors.png)
 
 ### **EXAMEN** Evolution of Virtualization Software Solution
-![Evolution of virtualization software](evolution-of-virtualization.png)
+![Evolution of virtualization software](Images/evolution-of-virtualization.png)
 #### Basic Overview
 First generation of virtualization software implemented **full virtualization** (binary rewriting). The translation layer introduces a lot of overhead, which makes this version of virtualization very slow.
 
@@ -249,7 +249,7 @@ Modern virtualization software uses **silicon-based virtualization** (hardware-a
 #### Full Virtualization (Outdated)
 Traditional VMMs provide full-virtualization, meaning that everything is virtualized. The VMM has to provide full hardware emulation. The functionality provided by the VMM is identical to the underlying physical hardware, and is exposed to the VMs. This allows unmodified guest OSs (designed for the same CPU) to be run in isolation on the VMs. The VM does not know it is running on emulated hardware. This emulation step introduces a lot of latency and may result in some performance degradation.
 
-![full-virtualization](full-virtualization.png)
+![full-virtualization](Images/full-virtualization.png)
 
 Some examples include VirtualBox, Virtual PC, VMWare, QEMU...
 

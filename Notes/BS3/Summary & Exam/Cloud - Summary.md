@@ -6,11 +6,11 @@ Belangrijkste definitie komt uit paper "[A break in the clouds: towards a cloud 
 
 ## **EXAMEN** Economics of Cloud Users
 * Riskof over-provisioning: underutilization
-![underutilization](underutilization.png)
+![underutilization](../Images/underutilization.png)
 * Heavy penalty for under-provisioning
-![under-provisioning](under-provisioning.png)
+![under-provisioning](../Images/under-provisioning.png)
 * Pay by use: Static data center vs Data center in the cloud
-![static-vs-cloud-datacenters](static-vs-cloud-datacenters.png)
+![static-vs-cloud-datacenters](../Images/static-vs-cloud-datacenters.png)
 
 ## Economy of Scale
 > Prob zeer belangrijk want heeft lang aan deze slide bezig geweest
@@ -55,7 +55,7 @@ A cloud for a single client only. Hosted and operated by a service provider or t
 
 ### Hybrid Cloud
 public cloud + private cloud, **with automatic cloudbursting**
-![hybrid-cloud](hybrid-cloud.png)
+![hybrid-cloud](../Images/hybrid-cloud.png)
 * Private cloud supports critical activities
 * Public cloud supports non-critical activities
 * Can outsource non-critical functions
