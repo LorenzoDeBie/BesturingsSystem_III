@@ -1,3 +1,6 @@
 [submodule "sysadmin-2020-2021-lwdbie"]
 	path = sysadmin-2020-2021-lwdbie
 	url = git@github.ugent.be:sysadmin-2020-2021/sysadmin-2020-2021-lwdbie.git
+[submodule "BesturingsSystem_III_labs"]
+	path = BesturingsSystem_III_labs
+	url = git@github.com:LorenzoDeBie/BesturingsSystem_III_labs.git
