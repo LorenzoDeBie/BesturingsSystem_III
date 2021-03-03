@@ -1,0 +1,3 @@
+[submodule "sysadmin-2020-2021-lwdbie"]
+	path = sysadmin-2020-2021-lwdbie
+	url = git@github.ugent.be:sysadmin-2020-2021/sysadmin-2020-2021-lwdbie.git
